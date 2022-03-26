@@ -12,6 +12,8 @@
 .text {
     font-family: 'Roboto-Regular'; 
     font-size: 30px;
+    display: block;
+    text-align: center;
     padding-top: 10%;
 }
 
@@ -20,7 +22,7 @@
     font-size: 31px;
     display: block;
     text-align: center;
-    background-image: url(/images/content.png);
+    background-image: url(/css/images/content.png);
     margin: auto;
     margin-top: 5%;
     width: 489px;
