@@ -1,0 +1,32 @@
+/* Roboto-Bold */
+@font-face {
+    font-family: Roboto-Bold; /* Name */
+    src: url(/font/Roboto/Roboto-Bold.ttf); /* Patch */
+   }
+/* Roboto-Regular */
+@font-face {
+    font-family: Roboto-Regular; /* Name */
+    src: url(/font/Roboto/Roboto-Regular.ttf); /* Patch */
+   }
+
+.text {
+    font-family: 'Roboto-Regular'; 
+    font-size: 30px;
+    padding-top: 10%;
+}
+
+.content {
+    font-family: 'Roboto-Bold'; 
+    font-size: 31px;
+    display: block;
+    text-align: center;
+    background-image: url(/images/content.png);
+    margin: auto;
+    margin-top: 5%;
+    width: 489px;
+    height: 201px;
+}
+
+.icon {
+    
+}
