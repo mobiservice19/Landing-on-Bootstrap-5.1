@@ -1,0 +1,8 @@
+# Lines starting with `#` are comments.
+
+# Ignore files called '.DS_Store'
+.DS_Store
+
+# Ignoring directories
+# Both the directory itself and its contents will be ignored.
+vendor/
