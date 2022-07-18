@@ -1,16 +1,15 @@
-/* Roboto-Bold */
-@font-face {
-    font-family: Roboto-Bold; /* Name */
-    src: url(/font/Roboto/Roboto-Bold.ttf); /* Patch */
-   }
-/* Roboto-Regular */
-@font-face {
-    font-family: Roboto-Regular; /* Name */
-    src: url(/font/Roboto/Roboto-Regular.ttf); /* Patch */
-   }
+ /* Standard CT Stencil Bold */
+ @font-face {font-family: "Standard CT Stencil Bold"; 
+	src: url("//db.onlinewebfonts.com/t/9551514c6daf77d2f3ec8c9edaa0997c.eot"); 
+	src: url("//db.onlinewebfonts.com/t/9551514c6daf77d2f3ec8c9edaa0997c.eot?#iefix") format("embedded-opentype"), 
+	url("//db.onlinewebfonts.com/t/9551514c6daf77d2f3ec8c9edaa0997c.woff2") format("woff2"), 
+	url("//db.onlinewebfonts.com/t/9551514c6daf77d2f3ec8c9edaa0997c.woff") format("woff"), 
+	url("//db.onlinewebfonts.com/t/9551514c6daf77d2f3ec8c9edaa0997c.ttf") format("truetype"), 
+	url("//db.onlinewebfonts.com/t/9551514c6daf77d2f3ec8c9edaa0997c.svg#Standard CT Stencil Bold") format("svg"); 
+}
 
 .text {
-    font-family: 'Roboto-Regular'; 
+    font-family: 'Standard CT Stencil Bold'; 
     font-size: 30px;
     display: block;
     text-align: center;
@@ -18,7 +17,7 @@
 }
 
 .content {
-    font-family: 'Roboto-Bold'; 
+    font-family: 'Standard CT Stencil Bold'; 
     font-size: 31px;
     display: block;
     text-align: center;
